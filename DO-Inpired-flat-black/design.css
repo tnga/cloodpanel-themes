@@ -1,13 +1,12 @@
 /*
     Name: FLAT BLACK
-    Version: 1.0
+    Version: 1.2
     Author: CypherPotato
 
     Tested on CyberPanel 2.3 build 1
     Served with APACHE-2.0 license
 
     - CyberPanel repo: https://github.com/usmannasir/cyberpanel/
-    - Themes repo:     https://github.com/CypherPotato/CyberPanel-themes
 */
 
 :root {
@@ -33,7 +32,7 @@ h1, h2, h3, h4, h5, h6,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
-.btn {
+.btn:not(.toggle) {
     border-width: 0px;
 }
 .btn-primary {
